@@ -1,0 +1,17 @@
+# This is a Python example of using consistent style
+def calculate_total(price, quantity):
+    """
+    Calculates the total cost for a given price and quantity.
+    """
+    # Ensure price and quantity are numbers before calculation
+    if isinstance(price, (int, float)) and isinstance(quantity, (int, float)):
+        total = price * quantity
+        return total
+    else:
+        return "Invalid input: price and quantity must be numbers."
+
+# Example usage
+item_price = 10.50
+item_quantity = 3
+print(f"The total cost is: {calculate_total(item_price, item_quantity)}")
+
