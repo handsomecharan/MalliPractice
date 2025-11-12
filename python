@@ -1,0 +1,13 @@
+num1 = 10
+num2 = 5
+sum_result = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2  # Classic division returns a float
+floor_division = num1 // num2 # Floor division returns an integer
+
+print(f"Sum: {sum_result}")
+print(f"Difference: {difference}")
+print(f"Product: {product}")
+print(f"Quotient: {quotient}")
+print(f"Floor Division: {floor_division}")
